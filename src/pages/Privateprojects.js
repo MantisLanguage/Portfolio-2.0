@@ -99,6 +99,19 @@ class Private extends Component {
             <CardMenu style={{color: '#fff'}}>
             </CardMenu>
           </Card>
+            {/* Project 7 */}
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >GifTastic</CardTitle>
+            <CardText>
+             A GIF search engine created using html/css, javascript, jQuery, AJAX and GIPHY API. 
+            </CardText>
+            <CardActions border>
+            <a href="https://github.com/MantisLanguage/GifTastic" taget="_blank" className="aGitHub"> GitHub </a>
+             <a href="https://mantislanguage.github.io/GifTastic/" taget="_blank" className="aLive"> Live Link </a>
+            </CardActions>
+            <CardMenu style={{color: '#fff'}}>
+            </CardMenu>
+          </Card>
           </div>
           {/* Project 4 */}
           <div className="projects">
@@ -140,23 +153,8 @@ class Private extends Component {
             <CardMenu style={{color: '#fff'}}>
             </CardMenu>
           </Card>
-          </div>
-          <div className="projects">
-             {/* Project 7 */}
-             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >GifTastic</CardTitle>
-            <CardText>
-             A GIF search engine created using html/css, javascript, jQuery, AJAX and GIPHY API. 
-            </CardText>
-            <CardActions border>
-            <a href="https://github.com/MantisLanguage/GifTastic" taget="_blank" className="aGitHub"> GitHub </a>
-             <a href="https://mantislanguage.github.io/GifTastic/" taget="_blank" className="aLive"> Live Link </a>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-            </CardMenu>
-          </Card>
-            {/* Project 8 */}
-            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+           {/* Project 8 */}
+           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Trivia Game</CardTitle>
             <CardText>
              Trivia quiz on Octopuses made with html/css, jQuery and javascript. 
