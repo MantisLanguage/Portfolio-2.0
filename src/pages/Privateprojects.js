@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Spacer, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, CardMenu} from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, CardMenu} from 'react-mdl';
 import Quizness from '../images/Screen Shot 2019-10-29 at 1.01.07 PM.png';
 
 class Private extends Component {
