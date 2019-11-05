@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, CardMenu} from 'react-mdl';
+import { Tabs, Spacer, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, CardMenu} from 'react-mdl';
 import Quizness from '../images/Screen Shot 2019-10-29 at 1.01.07 PM.png';
 
 class Private extends Component {
@@ -58,7 +58,8 @@ class Private extends Component {
     //   Begin Private Tab
     } else if(this.state.activeTab === 1) {
         return(
-            <div className="projects">
+            <div className="bigTab">
+              <div className="projects">
               {/* Project 1 */}
               <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Clicky Game</CardTitle>
@@ -98,8 +99,9 @@ class Private extends Component {
             <CardMenu style={{color: '#fff'}}>
             </CardMenu>
           </Card>
-          <br></br>
+          </div>
           {/* Project 4 */}
+          <div className="projects">
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Bamazon</CardTitle>
             <CardText>
@@ -138,6 +140,8 @@ class Private extends Component {
             <CardMenu style={{color: '#fff'}}>
             </CardMenu>
           </Card>
+          </div>
+          <div className="projects">
              {/* Project 7 */}
              <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >GifTastic</CardTitle>
@@ -164,12 +168,13 @@ class Private extends Component {
             <CardMenu style={{color: '#fff'}}>
             </CardMenu>
           </Card>
+          </div>
             </div>
             )
     } 
  else if(this.state.activeTab === 2) {
     return (
-      <div><h1>This is VueJS</h1></div>
+      <div><h1>Brenna Devitt Photography Website Coming Soon</h1></div>
     )
     
   }}

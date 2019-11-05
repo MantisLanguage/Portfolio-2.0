@@ -2,12 +2,12 @@
   background: rgb(32, 230, 81);  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, rgb(0, 0, 0), #919191, rgb(255, 255, 255));  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, rgb(0, 0, 0), #919191, rgb(255, 255, 255)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
 }
 body{
   background-image: url('../images/retina-display.png');
   background-repeat: no-repeat;
   background-size: cover;
+  height: auto;
 }
 h1{
   color: white;
@@ -113,8 +113,9 @@ i.material-icons{
 .mdl-layout__drawer-button{
   background-color: white;
 }
-
-
+.material-icons{
+  background-color: white;
+}
 .projectTabs{
 color: white;
 text-emphasis-color: white;
