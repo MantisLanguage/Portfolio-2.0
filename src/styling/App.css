@@ -115,8 +115,21 @@ i.material-icons{
 }
 .material-icons{
   background-color: white;
+  border: black 4px;
 }
 .projectTabs{
 color: white;
 text-emphasis-color: white;
+}
+.mdl-layout__header {
+  color: white;
+  background-color: white;
+}
+.headerColor{
+  color: white;
+  background-color: white;
+}
+header.mdl-layout{
+  color: white;
+  background-color: white;
 }

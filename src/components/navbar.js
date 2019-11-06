@@ -7,8 +7,8 @@ class Navbar extends React.Component {
     render(){
         return(
 <div>
-    <Layout fixedHeader>
-        <Header className="headerColor" title={<span><strong><Link className="nameLink" to="/">Connor Dougherty</Link></strong></span>}>
+    <Layout>
+        <Header className="headerColor" title={<span><strong><Link className="nameLink" to="/">Home</Link></strong></span>}>
             <Navigation>
                 <Link to="/private">Projects</Link>
                 <Link to="/resume">Resume</Link>
