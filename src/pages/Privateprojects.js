@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, CardMenu} from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, CardMenu,} from 'react-mdl';
 import Quizness from '../images/Screen Shot 2019-10-29 at 1.01.07 PM.png';
-
+// import CCard from '../components/card'
 class Private extends Component {
   constructor(props) {
     super(props);
@@ -155,7 +155,7 @@ class Private extends Component {
           </Card>
            {/* Project 8 */}
            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover'}} >Trivia Game</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://ibb.co/LhbDpqr) center / cover'}} >Trivia Game</CardTitle>
             <CardText>
              Trivia quiz on Octopuses made with html/css, jQuery and javascript. 
             </CardText>
@@ -172,7 +172,8 @@ class Private extends Component {
     } 
  else if(this.state.activeTab === 2) {
     return (
-      <div><h1>Brenna Devitt Photography Website Coming Soon</h1></div>
+      <div>
+        <h1>Brenna Devitt Photography Website Coming Soon</h1></div>
     )
     
   }}
