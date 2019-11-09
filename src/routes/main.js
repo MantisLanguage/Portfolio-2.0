@@ -7,10 +7,10 @@ import Private from '../pages/Privateprojects'
 
 const Main = () => (
 <Switch>
-    <Route exact path="/" component ={Home} />
-    <Route path="/resume" component ={Resume} />
-    <Route path="/contact" component ={Contact} />
-    <Route path="/projects" component ={Private} />
+    <Route exact path="/Portfolio-2.0/" component ={Home} />
+    <Route path="/Portfolio-2.0/resume" component ={Resume} />
+    <Route path="/Portfolio-2.0/contact" component ={Contact} />
+    <Route path="/Portfolio-2.0/projects" component ={Private} />
 </Switch>
     
 )
