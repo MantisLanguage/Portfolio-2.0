@@ -1,13 +1,9 @@
-.headerColor{
-  background: rgb(32, 230, 81);  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, rgb(0, 0, 0), #919191, rgb(255, 255, 255));  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, rgb(0, 0, 0), #919191, rgb(255, 255, 255)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+
 body{
   background-image: url('../images/retina-display.png');
   background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
+  height: 100%;
 }
 h1{
   color: white;
@@ -52,9 +48,6 @@ display: flex;
 
 .contactBody {
   margin: auto;
-  background-image: url('../images/retina-display.png');
-  background-repeat: no-repeat;
-  background-size: cover;
   position: fixed;
   width: 100%;
   height: 100%;
@@ -102,9 +95,13 @@ display: flex;
   /* height: 450px;
   width: 170px;
 } */
-
+.yoshi{
+  color: red;
+  text-align: right;
+}
 .nameLink{
-  color: black;
+  color: white;
+  text-shadow: 3px black;
 }
 i.material-icons{
   color: black;
@@ -133,16 +130,66 @@ header.mdl-layout{
   color: white;
   background-color: white;
 }
+.cardOne{
+  height: 15vh;
+}
+.cardTwo{
+  height: 15vh;
+}
+.cardThree{
+  height: 15vh;
+}
+.cardFour{
+  height: 15vh;
+}
 
-/* a{
+.cardFive{
+  height: 15vh;
+}
+
+.cardSix{
+  height: 15vh;
+}
+
+.cardSeven{
+  height: 15vh;
+}
+
+.cardEight{
+  height: 15vh;
+}
+
+.cardNine{
+  height: 15vh;
+}
+.cardTen{
+  height: 15vh;
+}
+
+.cardEleven{
+  height: 15vh;
+}
+.headerColor{
   color: white;
 }
-.mdl-tabs__tab-bar{
-  color: white;
+
+
+/* Begin Media Queries */
+
+@media screen and (max-width: 980px) {
+.headshotImg{
+  size: 80%;
 }
-.mdl-tabs__tab {
-  color: white;
+.contactName{
+size: 40%;
 }
-.mdl-tabs__ripple-container {
-  color: white;
-} */
+.contactDesc{
+  size: 40%;
+}
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 640px) {
+}

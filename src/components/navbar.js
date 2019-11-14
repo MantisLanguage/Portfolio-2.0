@@ -8,7 +8,7 @@ class Navbar extends React.Component {
         return(
 <div>
     <Layout>
-        <Header className="headerColor" title={<span><strong><Link className="nameLink" to="/Portfolio-2.0/">Home</Link></strong></span>}>
+        <Header transparent className="headerColor" title={<span><strong><Link className="nameLink" to="/Portfolio-2.0/">Home</Link></strong></span>}>
             <Navigation>
                 <Link to="/Portfolio-2.0/projects">Projects</Link>
                 <Link to="/Portfolio-2.0/resume">Resume</Link>
