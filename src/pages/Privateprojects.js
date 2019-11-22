@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, CardMenu,} from 'react-mdl';
-import Quizness from '../images/quizness.jpg';
 // import CCard from '../components/card'
 class Private extends Component {
   constructor(props) {
