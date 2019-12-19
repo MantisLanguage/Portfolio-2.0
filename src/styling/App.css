@@ -103,6 +103,10 @@ display: flex;
   color: white;
   text-shadow: 3px black;
 }
+.nameLinkDrawer{
+  color: black;
+  text-shadow: 3px black;
+}
 i.material-icons{
   color: black;
   background-color: white;

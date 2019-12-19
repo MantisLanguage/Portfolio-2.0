@@ -15,7 +15,7 @@ class Navbar extends React.Component {
                 <Link to="/Portfolio-2.0/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title={<span><strong><Link className="nameLink" to="/Portfolio-2.0/">Connor Dougherty</Link></strong></span>}>
+        <Drawer title={<span><strong><Link className="nameLinkDrawer" to="/Portfolio-2.0/">Connor Dougherty</Link></strong></span>}>
             <Navigation>
                 <Link to="/Portfolio-2.0/projects">Projects</Link>
                 <Link to="/Portfolio-2.0/resume">Resume</Link>
