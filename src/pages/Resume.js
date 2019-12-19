@@ -3,11 +3,11 @@ class Resume extends Component {
   render() {
       return (
           <div>
-         <iframe title="resume" src="https://drive.google.com/file/d/1HqgGr-_TzR9U5UQ_7nt8GNfhg0omahec/preview" width="100%" height="1000"></iframe>         
+         <iframe title="resume" src="https://drive.google.com/file/d/1t1Ho4Ewcr89uuDfjvf0ui_XU3BySoop0/preview" width="100%" height="1000"></iframe>         
           </div>
       )
   }
-
+ 
 }
 
 export default Resume;
