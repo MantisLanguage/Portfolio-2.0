@@ -10,7 +10,7 @@ class Home extends Component {
                     <div className='homeBanner'>
                         <h1>Connor Dougherty <br/>Full Stack Web Developer</h1>
                         <hr/>
-                        <p>| HTML | CSS | Javascript | jQuery | JSON | React | NodeJS | Apex | ExpressJS | MongoDB | SQL | SOQL | Firebase | AJAX | Heroku | and growing! |</p>
+                        <p> HTML | CSS | Javascript | jQuery | JSON | React | NodeJS | Apex | ExpressJS | MongoDB | SQL | SOQL | Firebase | AJAX | Heroku | and growing! </p>
                       <div className='links'>
                         <a href="https://www.linkedin.com/in/connor-dougherty-7a8880b8/" taget="_blank">
                             <i className="fa fa-linkedin"/>
