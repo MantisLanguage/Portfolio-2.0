@@ -8,7 +8,7 @@ class Home extends Component {
                 <Grid className="homeGrid">
                     <Cell col={12}>
                     <div className='homeBanner'>
-                        <h1>Connor Dougherty <br/>Full Stack Web Developer</h1>
+                        <h1>Connor Dougherty <br/>Full Stack Developer</h1>
                         <hr/>
                         <p> HTML | CSS | Javascript | jQuery | JSON | React | NodeJS | Apex | ExpressJS | MongoDB | SQL | SOQL | Firebase | AJAX | Heroku | and growing! </p>
                       <div className='links'>
